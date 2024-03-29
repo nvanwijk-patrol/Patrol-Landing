@@ -20,7 +20,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://nvanwijk-patrol.github.io/Patrol-Landing",
+  "homepage": "https://www.patrolapp.ai",
   "eslintConfig": {
     "extends": [
       "react-app",
