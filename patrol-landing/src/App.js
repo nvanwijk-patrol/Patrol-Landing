@@ -13,7 +13,7 @@ function App() {
         <h3 className="Tag-line">
           The AI first compliance platform for SMB Shopify merchants
         </h3>
-        <button className="Waitlist-button">
+        <button className="Waitlist-button" aria-label="Join our Waitlist">
           <a  
           className="App-link"
           href="https://forms.gle/Mh3job9QHU2HWkza8"
