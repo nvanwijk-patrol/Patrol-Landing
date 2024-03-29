@@ -5,18 +5,23 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
+        {//<img src={logo} className="App-logo" alt="logo" />
+        }
+        <h1 className="Title">
+          Patrol
+        </h1>
+        <h3 className="Tag-line">
+          The AI first compliance platform for SMB Shopify merchants
+        </h3>
+        <button className="Waitlist-button">
+          <a  
           className="App-link"
-          href="https://reactjs.org"
+          href="https://forms.gle/Mh3job9QHU2HWkza8"
           target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+          rel="noopener noreferrer">
+            Join our Waitlist
+          </a>
+        </button>
       </header>
     </div>
   );

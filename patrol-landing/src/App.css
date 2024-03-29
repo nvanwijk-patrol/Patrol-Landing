@@ -7,14 +7,9 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
+  background-color: #cfe2f3;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,14 +20,29 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Waitlist-button{
+  background-color: #073763;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.Title{
+  font-family: 'Trebuchet MS';
+  font-size: 5em;
+  color: #073763;
+  font-weight: 700;
+  white-space: pre;
+  margin-bottom:0;
+}
+
+.Tag-line{
+  font-family: 'Trebuchet MS';
+  font-size: 2em;
+  color: #073763;
+  font-weight: 300;
 }
