@@ -12,7 +12,7 @@ function App() {
           </h1>
         </div>
         <h3 className="Tag-line">
-          The AI first compliance platform for SMB Shopify merchants
+          The AI first compliance platform for Shopify
         </h3>
         <button className="Waitlist-button" aria-label="Join our Waitlist">
           <a
