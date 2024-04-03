@@ -3,13 +3,12 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 2em;
   pointer-events: none;
 }
 
 
 .App-header {
-  background-color: #cfe2f3;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -33,11 +32,20 @@
 
 .Title{
   font-family: 'Trebuchet MS';
-  font-size: 5em;
+  font-size: 2em;
   color: #073763;
   font-weight: 700;
-  white-space: pre;
-  margin-bottom:0;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 12px;
+}
+
+.Header-div{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .Tag-line{
