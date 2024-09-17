@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #F5F5F5;
 }
 
 .App-logo {
@@ -9,11 +10,8 @@
 
 
 .App-header {
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -21,13 +19,17 @@
 .App-link {
   color: white;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 0.8em;
 }
 
 .Waitlist-button{
   background-color: #073763;
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
+}
+
+.Waitlist-button-div{
+  margin:20px;
 }
 
 .Title{
@@ -43,16 +45,142 @@
 .Header-div{
   display: flex;
   align-items: center;
-  position: absolute;
-  top: 0;
-  left: 0;
+  cursor: pointer;
 }
 
 .Tag-line{
+  max-width: 800px;
   font-family: 'Trebuchet MS';
-  font-size: 2em;
-  color: #073763;
+  font-size: 4em;
   font-weight: 300;
   margin-left:64px;
   margin-right:64px;
+}
+
+.Tag-line-div{
+  margin-top: 128px;
+  display: flex;
+  justify-content: center;
+} 
+
+.Audit-button{
+  background-color: #073763;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.banner{
+  max-width: 100%;
+  margin-top: 128px;
+}
+
+.Stats-div{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Stats-div-title{
+  font-family: 'Trebuchet MS';
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 54px;
+  margin-left: 12px;
+}
+
+.Stats-div-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 12px;
+  max-width: 50%;
+}
+
+.stats-star{
+  font-size: 4em;
+  color: #073763;
+  margin: 0;
+}
+
+.Stats-div-item-text{
+  font-family: 'Trebuchet MS';
+  font-size: 1.5em;
+  width: 300px;
+  margin: 0;
+}
+
+.Merchant-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 54px;
+}
+
+.Merchant-div-image{
+  max-width: 40%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.Merchant-div-text{
+  margin-left: 24px;
+  margin-right: 48px;
+  font-family: 'Trebuchet MS';
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-top: 32px
+}   
+
+.Merchant-div-title{
+  font-family: 'Trebuchet MS';
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 54px;
+  margin-left: 12px;
+}
+
+.logo-large{
+  max-width: 20%;
+}
+
+.large-button{
+  font-size: 1.5em;
+}
+
+.release-date{
+  font-family: 'Trebuchet MS';
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 48px;
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
+.Footer-div{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.Footer-text{
+  font-family: 'Trebuchet MS';
+  font-size: 1em;
+  font-weight: 300;
+  margin-top: 12px;
+  margin-bottom: 0;
+  padding-bottom: 12px;
+  margin-left: 12px;
+}
+
+.Test-audit-page{
+  width: 100%;
+  height: 90vh;
+  border: none;
 }
