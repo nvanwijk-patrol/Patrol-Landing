@@ -13,7 +13,9 @@
   display: flex;
   justify-content: space-between;
   font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: white;
+  position: sticky;
+  top: 0;
 }
 
 .App-link {
@@ -29,7 +31,12 @@
 }
 
 .Waitlist-button-div{
-  margin:20px;
+  margin:30px;
+}
+
+.Waitlist-button-div2{
+  margin-top:20px;
+  margin-bottom: 3em;
 }
 
 .Title{
@@ -49,20 +56,22 @@
 }
 
 .Tag-line{
-  max-width: 800px;
   font-family: 'Trebuchet MS';
   font-size: 4em;
   font-weight: 300;
-  margin-left:64px;
-  margin-right:64px;
+  margin: 0 64px 20px 64px;
 }
 
 .Tag-line-div{
-  margin-top: 128px;
+  margin: 128px 0 28px 0;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 } 
 
+p{
+  font-size: 20px;
+}
 .Audit-button{
   background-color: #073763;
   padding: 10px;
@@ -75,9 +84,12 @@
 
 .banner{
   max-width: 100%;
-  margin-top: 128px;
+  margin: 128px 0 128px 0;
 }
 
+.section-2, .section-3{
+  margin: 128px 0 128px 0;
+}
 .Stats-div{
   display: flex;
   justify-content: space-evenly;
@@ -86,17 +98,15 @@
 
 .Stats-div-title{
   font-family: 'Trebuchet MS';
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 700;
-  margin-bottom: 0;
-  margin-top: 54px;
-  margin-left: 12px;
+  margin-bottom: 60px;
 }
 
 .Stats-div-item{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   margin: 12px;
   max-width: 50%;
@@ -112,7 +122,8 @@
   font-family: 'Trebuchet MS';
   font-size: 1.5em;
   width: 300px;
-  margin: 0;
+  margin-top: 20px;
+  text-align: left;
 }
 
 .Merchant-div{
@@ -134,8 +145,13 @@
   font-family: 'Trebuchet MS';
   font-size: 1.5em;
   font-weight: 300;
-  margin-top: 32px
+  margin-top: 32px;
+  text-align: left;
 }   
+
+.Merchant-div-text a{
+  color: #073763;
+}
 
 .Merchant-div-title{
   font-family: 'Trebuchet MS';
@@ -147,7 +163,7 @@
 }
 
 .logo-large{
-  max-width: 20%;
+  max-width: 5%;
 }
 
 .large-button{
@@ -163,10 +179,10 @@
   margin-left: 12px;
 }
 
-.Footer-div{
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+.footer{
+  background-color: white;
+  padding-top: 30px;
+  margin-top: -6px;
 }
 
 .Footer-text{
@@ -183,4 +199,87 @@
   width: 100%;
   height: 90vh;
   border: none;
+}
+
+.contactUs{
+  text-align: center;
+}
+
+.contactUs p{
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .section-2, .section-3 {
+    min-width: 300px; /* Ensure minimum width on smaller screens */
+    flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+
+  .Stats-div {
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    justify-content: center; /* Center items */
+  }
+
+  .Stats-div-item, .Stats-div-item-text {
+    max-width: 100%; /* Allow items to take full width on small screens */
+    margin: 12px 0; /* Adjust margin for better spacing */
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+  .Merchant-div {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center; /* Center items */
+  }
+  
+  .Merchant-div2{
+    flex-direction: column-reverse;
+  }
+
+  .logo-large{
+    max-width: 10%;
+  }
+
+  .Merchant-div-text{
+    font-size: 18px;
+  }
+
+  .Merchant-div-image {
+    max-width: 80%; /* Adjust image size for smaller screens */
+    margin: 0; /* Remove side margins */
+  }
+  h2 {
+    font-size: 1.5em; /* Adjust h2 size for smaller screens */
+  }
+
+  p {
+    font-size: 16px;
+    margin:auto;
+  }
+
+  .Title {
+    font-size: 1.5em; /* Adjust Title size for smaller screens */
+  }
+
+  .Tag-line {
+    font-size: 3em; /* Adjust Tag-line size for smaller screens */
+  }
+
+  .Stats-div-title {
+    font-size: 2.5em; /* Adjust Stats-div-title size for smaller screens */
+  }
+
+  .Merchant-div-title {
+    font-size: 2em; /* Adjust Merchant-div-title size for smaller screens */
+  }
+
+  .release-date {
+    font-size: 1.5em; /* Adjust release-date size for smaller screens */
+  }
+
+  .Footer-text {
+    font-size: 0.9em; /* Adjust Footer-text size for smaller screens */
+  }
 }
