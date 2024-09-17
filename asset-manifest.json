@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.472af342.css",
-    "main.js": "/static/js/main.70aea5b6.js",
+    "main.css": "/static/css/main.e9f4ff7c.css",
+    "main.js": "/static/js/main.a10a9787.js",
     "static/js/453.3c61dde7.chunk.js": "/static/js/453.3c61dde7.chunk.js",
-    "static/media/PatrolLogo.png": "/static/media/PatrolLogo.59340de0388681b1603a.png",
+    "static/media/AccessibilityBanner.webp": "/static/media/AccessibilityBanner.a42bf238c35f7fbaa210.webp",
+    "static/media/PatrolLogo.png": "/static/media/PatrolLogo.0b4749163e6d8e683d88.png",
+    "static/media/AuditScreenshot.png": "/static/media/AuditScreenshot.066fb229796d63c3b64f.png",
+    "static/media/FixScreenshot.png": "/static/media/FixScreenshot.85accb1bf676fede939f.png",
     "index.html": "/index.html",
-    "main.472af342.css.map": "/static/css/main.472af342.css.map",
-    "main.70aea5b6.js.map": "/static/js/main.70aea5b6.js.map",
+    "main.e9f4ff7c.css.map": "/static/css/main.e9f4ff7c.css.map",
+    "main.a10a9787.js.map": "/static/js/main.a10a9787.js.map",
     "453.3c61dde7.chunk.js.map": "/static/js/453.3c61dde7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.472af342.css",
-    "static/js/main.70aea5b6.js"
+    "static/css/main.e9f4ff7c.css",
+    "static/js/main.a10a9787.js"
   ]
 }
