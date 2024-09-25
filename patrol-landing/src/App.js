@@ -35,9 +35,9 @@ function App() {
       <div className='banner'>
         <div className="Tag-line-div">
           <h1 className="Tag-line">
-            An AI-First <b>Web Accessibility</b><br/>and <b>ADA compliance</b> platform
+            The AI-First <b>Web Accessibility</b><br/>and <b>ADA compliance</b> platform
           </h1>
-          <p>We help Shopify brands and small business become accessible and ADA compliant by automating manual auditing,<br/> user-testing, and custom software development work</p>
+          <p>We help Shopify brands and small businesses become accessible + ADA compliant by automating manual auditing,<br/> user-testing, and custom software development work</p>
         </div>
         <div className="Waitlist-button-div2">
           <button
@@ -49,9 +49,6 @@ function App() {
           </button>
         </div>
       </div>
-      {/* <div>
-        <img src={accessibilityBanner} className="banner" alt="A cartoon banner showing differentely abled individuals" />
-      </div> */}
       <div>
         <div className='section-2'>
         <h2 className="Stats-div-title">
@@ -75,7 +72,7 @@ function App() {
           <div className="Stats-div-item">
             <img src={stats} className="sectional-cliparts" alt="A Saint Bernard Dog is the logo of Patrol" />
             <p className="Stats-div-item-text">
-              <b>Every 1/5</b> of the US population has a disability.
+              <b>1 in 5</b> Americans are living with disabilities.
             </p>
           </div>
           <div className="Stats-div-item">
@@ -102,7 +99,6 @@ function App() {
             <p className="Merchant-div-text">
               Patrol lets you deploy accessibility fixes directly in your dashboard.
               Unlike overlays, we fix your code at the <b>source</b> level, ensuring compliance.
-              Also, all changes are first added to a preview theme for your approval.
             </p>
             <img src={fix} className="Merchant-div-image" alt="A screenshot of the Patrol App showing a fix" />
           </div>
@@ -129,7 +125,7 @@ function App() {
       </div>
       </>
       ) : (
-        <iframe className="Test-audit-page" src="https://shopify.patrolapp.ai/"></iframe>
+        <iframe className="Test-audit-page" src="https://coat-boats-fancy-farm.trycloudflare.com/"></iframe>
       )}
     </div>
   );
