@@ -112,29 +112,33 @@ function App() {
         <main role="main">
           <Routes> {/* {{ edit_3 }} */}
             <Route path="/" element={<Home />} /> {/* {{ edit_4 }} */}
-            <Route path="/conduct-free-audit" element={ /* {{ edit_6 }} */ 
+            <Route path="/conduct-free-audit" element={ /* {{ edit_5 }} */ 
               <iframe className="Test-audit-page" src="https://shopify.patrolapp.ai/" title="Test Audit Page"></iframe>
             } />
           </Routes>
         </main>
-        <footer className='footer' role="contentinfo" aria-label="Footer">
-          <div>
-            <img src={logo} className="logo-large" alt="A cartoon of Saint, the AI agent" />
-          </div>
-          <div>
-            <h2 className="release-date">
-              Patrol is coming January 2025!
-            </h2>
-          </div>
-          <div className='contactUs'>
-            <p className="Merchant-div-text">
-              Contact Us: <a href="mailto:hello@patrolapp.ai">hello@patrolapp.ai</a>
-            </p>
-          </div>
-          <div className="Footer-div">
-            <p className="Footer-text">© Patrol AI inc. 2024</p>
-          </div>
-        </footer>
+        <Routes> {/* {{ edit_6 }} */}
+          <Route path="/" element={ /* {{ edit_7 }} */
+            <footer className='footer' role="contentinfo" aria-label="Footer">
+              <div>
+                <img src={logo} className="logo-large" alt="A cartoon of Saint, the AI agent" />
+              </div>
+              <div>
+                <h2 className="release-date">
+                  Patrol is coming January 2025!
+                </h2>
+              </div>
+              <div className='contactUs'>
+                <p className="Merchant-div-text">
+                  Contact Us: <a href="mailto:hello@patrolapp.ai">hello@patrolapp.ai</a>
+                </p>
+              </div>
+              <div className="Footer-div">
+                <p className="Footer-text">© Patrol AI inc. 2024</p>
+              </div>
+            </footer>
+          } />
+        </Routes>
       </div>
     </Router>
   );
