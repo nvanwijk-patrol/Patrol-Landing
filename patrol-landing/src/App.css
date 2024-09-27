@@ -197,12 +197,9 @@ p{
 
 .Footer-text{
   font-family: 'Trebuchet MS';
+  position: relative;
   font-size: 1em;
-  font-weight: 300;
-  margin-top: 12px;
-  margin-bottom: 0;
-  padding-bottom: 12px;
-  margin-left: 12px;
+  text-align: center;
 }
 
 .Test-audit-page{
